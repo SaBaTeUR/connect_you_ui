@@ -1,0 +1,12 @@
+# pipeline file :)
+image: node:6.9.4
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script: # Modify the commands below to build your repository.
+          - npm install
+          - npm run build
+          - npm test

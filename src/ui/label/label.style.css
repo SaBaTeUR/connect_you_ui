@@ -1,0 +1,13 @@
+.label {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.label__header {
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.label__text {
+  color: black;
+  font-size: 1.25rem;
+}

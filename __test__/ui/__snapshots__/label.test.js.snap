@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI testing... First Test 1`] = `
+<div
+  className="label"
+>
+  <div
+    className="label__header"
+  />
+  <div
+    className="label__text"
+  />
+</div>
+`;
